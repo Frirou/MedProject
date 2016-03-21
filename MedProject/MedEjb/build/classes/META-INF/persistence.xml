@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0"
+	xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="pidev1">
+
+		<jta-data-source>java:/KillerDS</jta-data-source>
+		<class>tn.esprit.entities.Admin</class>
+		<class>tn.esprit.entities.Advisors</class>
+		<class>tn.esprit.entities.BestPokeStay</class>
+		<class>tn.esprit.entities.Contributor</class>
+		<class>tn.esprit.entities.Doctors</class>
+		<class>tn.esprit.entities.Document</class>
+		<class>tn.esprit.entities.Escort</class>
+		<class>tn.esprit.entities.Feedback</class>
+		<class>tn.esprit.entities.Forum</class>
+		<class>tn.esprit.entities.Institution</class>
+		<class>tn.esprit.entities.MapsTest</class>
+		<class>tn.esprit.entities.MedicalConsultation</class>
+		<class>tn.esprit.entities.MedicalRecord</class>
+		<class>tn.esprit.entities.News</class>
+		<class>tn.esprit.entities.Packages</class>
+		<class>tn.esprit.entities.Provider</class>
+		<class>tn.esprit.entities.Services</class>
+		<class>tn.esprit.entities.User</class>
+		
+		
+
+		<properties>
+			<property name="hibernate.hbm2ddl.auto" value="update" />
+		</properties>
+
+
+	</persistence-unit>
+</persistence>
